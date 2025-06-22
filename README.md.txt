@@ -1,8 +1,8 @@
-# ??? Windows Server 2019 Help Desk Lab (Created by Me)
+# Windows Server 2019 Help Desk Lab (John Fregeau)
 
-This is a custom Active Directory lab I built and scripted on a Windows Server 2019 virtual machine to simulate common IT Help Desk tasks. It’s meant to demonstrate real-world skills like user provisioning, group management, and PowerShell automation.
+This is a custom Active Directory lab I built and scripted on a Windows Server 2019 virtual machine to simulate common IT Help Desk tasks. Itâ€™s meant to demonstrate real-world skills like user provisioning, group management, and PowerShell automation.
 
-## ?? What This Lab Does
+## What This Lab Does
 
 - Creates an Organizational Unit (OU) for lab users
 - Adds users to Active Directory from a `.csv` file
@@ -11,7 +11,7 @@ This is a custom Active Directory lab I built and scripted on a Windows Server 2
 
 Everything is built using PowerShell. You can test and reuse it in your own Server 2019 lab or VM.
 
-## ??? Files Included
+## Files Included
 
 | File                     | Purpose                                      |
 |--------------------------|----------------------------------------------|
@@ -19,11 +19,11 @@ Everything is built using PowerShell. You can test and reuse it in your own Serv
 | `Create-LabUsers.ps1`    | Creates OU and AD users from the CSV         |
 | `Add-LabUsersToGroup.ps1`| Adds users to the `HelpDeskUsers` group      |
 | `Export-LabUsers.ps1`    | Exports user list to CSV                     |
-| `README.md`              | You’re reading it ??                         |
+| `README.md`              | Youâ€™re reading it ??                         |
 
-## ?? How to Use
+## How to Use
 
-Make sure you're running on a domain controller (Server 2019) with AD PowerShell tools installed.
+Ensure you're running on a domain controller (Windows Server 2019) with AD PowerShell tools installed.
 
 1. Open PowerShell **as Administrator**
 2. Place all files in the same folder
